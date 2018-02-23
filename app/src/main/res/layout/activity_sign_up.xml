@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afomic.yearbook.SignUpActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/splash_icon"
+            android:layout_margin="16dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+        <EditText
+            android:hint="Access Token"
+            android:background="@drawable/box"
+            android:layout_margin="16dp"
+            android:padding="@dimen/dimen_8"
+            android:id="@+id/edt_access_token"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:hint="Create Account"
+            android:background="@color/colorPrimary"
+            android:textColorHint="@color/white"
+            android:padding="@dimen/dimen_8"
+            android:layout_margin="@dimen/dimen_4"
+            android:id="@+id/btn_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

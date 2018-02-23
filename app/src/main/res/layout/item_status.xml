@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:padding="@dimen/dimen_4"
+    android:layout_height="200dp">
+    <ImageView
+        android:src="@drawable/image_placeholder"
+        android:id="@+id/imv_status_preview"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_status_title"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#85050505"
+        android:textColor="@color/colorWhite"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dimen_8"
+        android:text="Ade olu"/>
+    <ImageView
+        android:id="@+id/imv_video_icon"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play"
+        android:alpha="0.7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"/>
+
+</RelativeLayout>

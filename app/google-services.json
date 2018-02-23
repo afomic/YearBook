@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "411297181586",
+    "firebase_url": "https://yearbook-a0700.firebaseio.com",
+    "project_id": "yearbook-a0700",
+    "storage_bucket": "yearbook-a0700.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411297181586:android:f97c63182edb1239",
+        "android_client_info": {
+          "package_name": "com.afomic.yearbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411297181586-j4ji7tp6em1lk2v00r9hc6v9n4qatj9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afomic.yearbook",
+            "certificate_hash": "24722e110244fcb4da0ea26a0df176cd257d32b5"
+          }
+        },
+        {
+          "client_id": "411297181586-ns45jjgbn0uup4qmnpk5cgq02on7t2dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrSeTQKJ0ls-Ey3-RUIexaejHWXTnQmFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411297181586-ns45jjgbn0uup4qmnpk5cgq02on7t2dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/course"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
+                <EditText
+                    android:hint="Best Course"
+                    android:id="@+id/edt_best_course"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/lecturer"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
+                <EditText
+                    android:hint="Best Lecturer"
+                    android:id="@+id/edt_best_lecturer"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:hint="Best Moment on campus"
+                    android:id="@+id/edt_best_moment"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_location"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
+                <EditText
+                    android:hint="Best Location"
+                    android:id="@+id/edt_best_location"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/post"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
+                <EditText
+                    android:hint="Leadership"
+                    android:id="@+id/edt_leadership_position"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_person"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
+                <EditText
+                    android:hint="Class Crush"
+                    android:id="@+id/edt_class_crush"
+                    android:inputType="textAutoComplete|textCapSentences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="@dimen/dimen_8"
+                    android:background="@color/colorPrimary"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/dimen_8"
+                    android:id="@+id/btn_registration_previous"
+                    android:hint="Previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_margin="@dimen/dimen_8"
+                    android:id="@+id/btn_registration_submit"
+                    android:hint="Submit"
+                    android:background="@color/colorPrimary"
+                    android:textColorHint="@color/white"
+                    android:padding="@dimen/dimen_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

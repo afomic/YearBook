@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.afomic.yearbook.CreateStatusActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_height="?attr/actionBarSize"/>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:padding="@dimen/dimen_4"
+            android:src="@drawable/dotted"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_centerInParent="true"
+            android:hint="Upload File"
+            android:id="@+id/btn_upload_file"
+            android:background="@color/colorPrimary"
+            android:textColorHint="@color/white"
+            android:padding="@dimen/dimen_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_below="@id/btn_upload_file"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_file_name"
+            android:padding="@dimen/dimen_8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <EditText
+        android:hint="Title"
+        android:layout_margin="@dimen/dimen_8"
+        android:background="@drawable/box"
+        android:id="@+id/edt_status_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Short Description"
+        android:inputType="textMultiLine|textCapSentences|textAutoComplete"
+        android:layout_margin="@dimen/dimen_8"
+        android:background="@drawable/box"
+        android:gravity="top"
+        android:id="@+id/edt_status_description"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:hint="Create Status"
+        android:background="@color/colorPrimary"
+        android:textColorHint="@color/white"
+        android:padding="@dimen/dimen_8"
+        android:id="@+id/btn_create_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
